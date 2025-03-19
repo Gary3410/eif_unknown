@@ -1,0 +1,366 @@
+[
+  {
+    "id": "000000000000",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [Lettuce, PepperShaker, Bread, Glassbottle, Apple, ButterKnife, Pan, Mug, Kettle, DishSponge, Tomato, Knife, Plate, WineBottle, Spoon, Cup, CellPhone, Egg, SaltShaker, SoapBottle, Spatula, Fork, Pot, Bowl, Potato, SprayBottle]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 9. Turn to the right go right towards the Microwave\nPlanning Actions:\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000001",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Pot, Fork, Tomato, Bread, Egg, ButterKnife, SaltShaker, Apple, Mug, Pan, CellPhone, SprayBottle, DishSponge, Cup, Spatula, Knife, Kettle, Bowl, WineBottle, SoapBottle, Lettuce, Glassbottle, PepperShaker, Potato, Spoon, Plate]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 6. Put the Knife in the Microwave\nPlanning Actions:\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000002",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Potato, WineBottle, Pot, Mug, DishSponge, Egg, Bread, Pan, Kettle, Plate, Fork, PepperShaker, Spatula, Glassbottle, ButterKnife, SoapBottle, Spoon, Tomato, SaltShaker, Bowl, Knife, Cup, SprayBottle, Apple, Lettuce, CellPhone]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 3. Take the Knife to the square table near the stool\nPlanning Actions:\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000003",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [Apple, Glassbottle, Spatula, Spoon, Fork, SoapBottle, Bread, WineBottle, Pot, Tomato, PepperShaker, Kettle, SaltShaker, Plate, Mug, ButterKnife, Lettuce, CellPhone, Pan, Egg, Cup, Bowl, Knife, Potato, SprayBottle, DishSponge]\nDone Actions: "
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 1. Turn to the right go left\nPlanning Actions:\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000004",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [Spoon, ButterKnife, Knife, Spatula, Lettuce, Fork, Egg, SprayBottle, Apple, SoapBottle, DishSponge, Mug, PepperShaker, Bread, Tomato, Glassbottle, Kettle, SaltShaker, Pot, Pan, Cup, Bowl, Plate, CellPhone, WineBottle, Potato]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 8. Pick up a slice of Bread from the table\nPlanning Actions:\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000005",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Cup, Bread, Egg, WineBottle, Pot, Spatula, Knife, SoapBottle, Pan, Lettuce, Mug, Plate, Glassbottle, DishSponge, Spoon, PepperShaker, Kettle, Bowl, Fork, SaltShaker, Potato, Tomato, Apple, ButterKnife, CellPhone, SprayBottle]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 9. Take the slice to the micrwave\nPlanning Actions:\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000006",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Apple, Cup, Pot, SaltShaker, CellPhone, Mug, WineBottle, Egg, Spoon, Bread, Plate, Fork, Spatula, Pan, Bowl, SoapBottle, Potato, Knife, SprayBottle, Lettuce, PepperShaker, DishSponge, Tomato, ButterKnife, Kettle, Glassbottle]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 11. Take the cooked slice to the Fridge\nPlanning Actions:\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000007",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Spoon, Tomato, WineBottle, Mug, PepperShaker, Pot, Knife, Plate, Potato, Pan, SoapBottle, Bowl, Apple, CellPhone, SprayBottle, ButterKnife, Kettle, Glassbottle, SaltShaker, Cup, Spatula, Egg, DishSponge, Bread, Lettuce, Fork]\nDone Actions: "
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 1. Go to the right end of the table\nPlanning Actions:\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000008",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [Bread, Mug, CellPhone, Cup, Pan, Pot, Lettuce, PepperShaker, Apple, SaltShaker, Egg, Tomato, Plate, SoapBottle, ButterKnife, WineBottle, Knife, Kettle, Glassbottle, SprayBottle, Potato, Bowl, DishSponge, Fork, Spatula, Spoon]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 5. Turn to the right go right towards the refrigerator\nPlanning Actions:\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000009",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [WineBottle, SaltShaker, PepperShaker, Knife, Apple, Glassbottle, Bread, DishSponge, Lettuce, SprayBottle, ButterKnife, Spatula, Fork, Cup, Spoon, Bowl, Plate, Potato, Pot, Kettle, CellPhone, Tomato, Egg, Pan, SoapBottle, Mug]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 7. Go back to the square table\nPlanning Actions:\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000010",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Plate, WineBottle, DishSponge, Fork, Bowl, SprayBottle, Bread, Kettle, Spoon, Pot, Apple, Mug, Tomato, PepperShaker, Spatula, Lettuce, Egg, Pan, Potato, Cup, Glassbottle, SaltShaker, SoapBottle, ButterKnife, CellPhone, Knife]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 8. Pick up a Potato slice\nPlanning Actions:\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000011",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Potato, Egg, PepperShaker, SaltShaker, Fork, Cup, WineBottle, Pan, Spatula, Knife, SprayBottle, Glassbottle, ButterKnife, Plate, Lettuce, Apple, Bowl, Kettle, SoapBottle, Pot, CellPhone, Tomato, DishSponge, Spoon, Bread, Mug]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 12. Task completed\nPlanning Actions:\n\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000012",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [Spatula, Kettle, SaltShaker, Fork, WineBottle, Apple, Glassbottle, Tomato, DishSponge, Egg, PepperShaker, Pot, SoapBottle, Lettuce, Mug, Bread, Spoon, Pan, Knife, Plate, SprayBottle, Bowl, Potato, ButterKnife, CellPhone, Cup]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 12. Put the slice of Bread inside the refrigerator\nPlanning Actions:\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000013",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [Spatula, Tomato, Mug, Cup, Knife, ButterKnife, SprayBottle, Fork, Pan, Potato, Bowl, DishSponge, Kettle, Lettuce, Spoon, Apple, SaltShaker, Plate, Pot, CellPhone, SoapBottle, Bread, PepperShaker, Glassbottle, Egg, WineBottle]\nDone Actions: \nStep 1. Turn to the right go left"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 2. Pick up the Knife that is on the white table\nPlanning Actions:\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000014",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Bowl, Kettle, Spatula, SprayBottle, ButterKnife, Knife, SaltShaker, Tomato, Plate, WineBottle, Egg, Fork, Lettuce, SoapBottle, Pot, Cup, Apple, PepperShaker, Potato, Pan, DishSponge, Mug, CellPhone, Spoon, Bread, Glassbottle]\nDone Actions: \nStep 1. Go to the right end of the table"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 2. Pick up the smaller yellow Knife from the table\nPlanning Actions:\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000015",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [Fork, Pan, Egg, CellPhone, Apple, SoapBottle, Spatula, PepperShaker, Cup, SprayBottle, Potato, Tomato, DishSponge, Knife, Bread, Mug, Kettle, Pot, Glassbottle, Spoon, Plate, SaltShaker, Lettuce, WineBottle, ButterKnife, Bowl]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 6. Put the Knife inside the refrigerator\nPlanning Actions:\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000016",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [SaltShaker, Pot, Cup, Egg, SprayBottle, Plate, CellPhone, Fork, Potato, Apple, Spoon, SoapBottle, Bread, Tomato, Knife, Lettuce, PepperShaker, Pan, ButterKnife, Glassbottle, Spatula, WineBottle, Mug, Bowl, Kettle, DishSponge]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nPlanning Actions:\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000017",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [Kettle, SaltShaker, PepperShaker, Bread, Knife, CellPhone, WineBottle, Fork, Lettuce, ButterKnife, Bowl, Tomato, Pot, Cup, Apple, Plate, Mug, Glassbottle, SoapBottle, Spoon, DishSponge, Pan, Potato, SprayBottle, Spatula, Egg]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 7. Turn to the right go right towards the white table\nPlanning Actions:\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000018",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Kettle, Cup, Glassbottle, Pan, Knife, Mug, Potato, DishSponge, WineBottle, Egg, Spatula, Spoon, Pot, Bread, Apple, CellPhone, Fork, Bowl, SoapBottle, SaltShaker, ButterKnife, Lettuce, PepperShaker, Plate, Tomato, SprayBottle]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 4. Slice the Potato on the table\nPlanning Actions:\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000019",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [ButterKnife, Tomato, Bowl, Cup, Pot, SaltShaker, Plate, SoapBottle, Apple, Fork, Potato, Bread, Spatula, WineBottle, Mug, PepperShaker, Egg, Glassbottle, Knife, Spoon, Kettle, SprayBottle, DishSponge, Pan, CellPhone, Lettuce]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 5. Take the Knife to the Microwave\nPlanning Actions:\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000020",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Pot, Bread, SoapBottle, Cup, Pan, Plate, Lettuce, Potato, Egg, Apple, Fork, Mug, ButterKnife, DishSponge, Knife, SaltShaker, WineBottle, Spatula, PepperShaker, SprayBottle, Spoon, CellPhone, Glassbottle, Kettle, Tomato, Bowl]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nPlanning Actions:\nStep 11. Take the cooked slice to the Fridge\nStep 12. Put the slice in the Fridge\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000021",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [CellPhone, ButterKnife, Pot, Bowl, Kettle, Spatula, Apple, Bread, Plate, SprayBottle, Spoon, Egg, PepperShaker, Lettuce, Potato, WineBottle, DishSponge, SaltShaker, Fork, Cup, Knife, Mug, Glassbottle, Pan, Tomato, SoapBottle]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 4. Slice the loaf of Bread that is on the table\nPlanning Actions:\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000022",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [Fork, SoapBottle, Potato, Apple, Cup, Kettle, Spoon, CellPhone, PepperShaker, Pan, WineBottle, Egg, Bread, Plate, Mug, Spatula, Tomato, SprayBottle, DishSponge, Lettuce, Knife, SaltShaker, Glassbottle, ButterKnife, Bowl, Pot]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 3. Turn to the right go right towards the white table\nPlanning Actions:\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000023",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [ButterKnife, Glassbottle, Tomato, DishSponge, Bowl, Fork, Lettuce, Spatula, SoapBottle, Potato, Pan, Egg, Mug, Bread, Plate, Knife, CellPhone, SaltShaker, Cup, Apple, PepperShaker, Kettle, Spoon, WineBottle, Pot, SprayBottle]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 11. Turn to the right go left towards the refrigerator\nPlanning Actions:\nStep 12. Put the slice of Bread inside the refrigerator\nStep 12. Task completed\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  },
+  {
+    "id": "000000000024",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Cook a Potato slice in the Microwave with a Knife then put it in the Fridge\nObject List: [Apple, ButterKnife, DishSponge, Potato, Lettuce, Bowl, Fork, Mug, Glassbottle, Knife, Pot, Spoon, Pan, Tomato, Plate, PepperShaker, SaltShaker, Egg, SprayBottle, SoapBottle, WineBottle, Bread, Cup, CellPhone, Kettle, Spatula]\nDone Actions: \nStep 1. Go to the right end of the table\nStep 2. Pick up the smaller yellow Knife from the table\nStep 3. Take the Knife to the square table near the stool\nStep 4. Slice the Potato on the table\nStep 5. Take the Knife to the Microwave\nStep 6. Put the Knife in the Microwave\nStep 7. Go back to the square table\nStep 8. Pick up a Potato slice\nStep 9. Take the slice to the micrwave\nStep 10. Cook the slice in the Microwave with the Knife, then remove the slice\nStep 11. Take the cooked slice to the Fridge"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 12. Put the slice in the Fridge\nPlanning Actions:\nStep 12. Task completed\nPlanning Target: [Microwave, Potato, Knife]"
+      }
+    ]
+  },
+  {
+    "id": "000000000025",
+    "image": null,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Instruction: Put a heated slice of Bread inside the refrigerator\nObject List: [PepperShaker, Cup, SprayBottle, Fork, Spatula, Plate, Lettuce, Spoon, WineBottle, Pot, SoapBottle, Bread, Glassbottle, Apple, Mug, Knife, Tomato, SaltShaker, Potato, CellPhone, DishSponge, Egg, Pan, Kettle, Bowl, ButterKnife]\nDone Actions: \nStep 1. Turn to the right go left\nStep 2. Pick up the Knife that is on the white table\nStep 3. Turn to the right go right towards the white table\nStep 4. Slice the loaf of Bread that is on the table\nStep 5. Turn to the right go right towards the refrigerator\nStep 6. Put the Knife inside the refrigerator\nStep 7. Turn to the right go right towards the white table\nStep 8. Pick up a slice of Bread from the table\nStep 9. Turn to the right go right towards the Microwave\nStep 10. Put the slice of Bread inside the Microwave heat it up get it back out\nStep 11. Turn to the right go left towards the refrigerator\nStep 12. Put the slice of Bread inside the refrigerator"
+      },
+      {
+        "from": "gpt",
+        "value": "Current Action:\nStep 12. Task completed\nPlanning Actions:\n\nPlanning Target: [ButterKnife, Potato, Microwave]"
+      }
+    ]
+  }
+]
