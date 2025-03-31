@@ -11,7 +11,7 @@ The repository contains:
 ## 📝 TODO
 - [x] Provide inference scripts.
 - [ ] Step-by-step initialization tutorial.
-- [ ] Release pretrained models.
+- [x] Release pretrained models.
 - [ ] Release fine-tuning datasets.
 - [ ] Release data-generation scripts.
 - [ ] Provide a Dockerfile for installation.
@@ -31,8 +31,8 @@ This repository contains the following components:
 ### Data preparation
 The following data needs to be downloaded:
 - ProcTHOR simulator room layout.
-- Fine-tuned high-level planner and low-level controller.
-- Instance segmentation model weights (optional).
+- Fine-tuned [high-level planner](https://huggingface.co/Gary3410/eif_unknown/tree/main/llava-vicuna-v1-3-7b-finetune-planner-lora-high-level-planner) and [low-level controller](https://huggingface.co/Gary3410/eif_unknown/tree/main/llava-vicuna-v1-3-7b-finetune-frontier-lora-low-level-controller).
+- Instance segmentation model [weights](https://huggingface.co/Gary3410/eif_unknown/tree/main/Detic_LI_CLIP_SwinB_896b32_4x_ft4x_max-size_procthor) (optional).
 - Instruction tuning dataset (optional).
 
 The file directory should be:
