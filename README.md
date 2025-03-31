@@ -43,8 +43,8 @@ eif_unknown
 │   ├── bert-large-uncased
 │   ├── CLIP-ViT-H-14-laion2B-s32B-b79K
 │   ├── clip-vit-large-patch14
-│   ├── llava-vicuna-v1-3-7b-finetune-high-level
-│   ├── llava-vicuna-v1-3-7b-finetune-low-level
+│   ├── llava-vicuna-v1-3-7b-finetune-planner-lora-high-level-planner
+│   ├── llava-vicuna-v1-3-7b-finetune-frontier-lora-low-level-controller
 │   ├── vicuna-v1-3-7b
 ├── create_dataset
 ├── data
