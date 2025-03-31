@@ -30,7 +30,7 @@ This repository contains the following components:
 
 ### Data preparation
 The following data needs to be downloaded:
-- ProcTHOR simulator room layout.
+- ProcTHOR simulator room [layout](https://huggingface.co/Gary3410/eif_unknown/tree/main/procthor_house).
 - Fine-tuned [high-level planner](https://huggingface.co/Gary3410/eif_unknown/tree/main/llava-vicuna-v1-3-7b-finetune-planner-lora-high-level-planner) and [low-level controller](https://huggingface.co/Gary3410/eif_unknown/tree/main/llava-vicuna-v1-3-7b-finetune-frontier-lora-low-level-controller).
 - Instance segmentation model [weights](https://huggingface.co/Gary3410/eif_unknown/tree/main/Detic_LI_CLIP_SwinB_896b32_4x_ft4x_max-size_procthor) (optional).
 - Instruction tuning dataset (optional).
@@ -101,8 +101,8 @@ To evaluate the checkpoint, you can use:
 # Oracle setting
 # Easy task
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m llava.serve.cli_llava_v3_nav_seg_gt \
-    --model-path ./checkpoints_output/llava-vicuna-v1-3-7b-finetune-frontier-lora \
-    --model-path-s1 ./checkpoints_output/llava-vicuna-v1-3-7b-finetune-planner-lora-s1-v3 \
+    --model-path ./checkpoints/llava-vicuna-v1-3-7b-finetune-frontier-lora-low-level-controller \
+    --model-path-s1 ./checkpoints/llava-vicuna-v1-3-7b-finetune-planner-lora-high-level-planner \
     --model-base ./checkpoints/vicuna-v1-3-7b \
     --image-file ./vision_dataset/llava_dataset_v8_easy_train/frontiers_feature \
     --val-file ./data/spaced_parse_instruction_easy_v12_val.json
@@ -111,8 +111,8 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m llava.serve.cli_llava_v3_nav_seg_gt \
 # Detic setting
 # Easy task
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m llava.serve.cli_llava_v3_procthor_maskrcnn \
-    --model-path ./checkpoints_output/llava-vicuna-v1-3-7b-finetune-frontier-lora \
-    --model-path-s1 ./checkpoints_output/llava-vicuna-v1-3-7b-finetune-planner-lora-s1-v3 \
+    --model-path ./checkpoints_output/llava-vicuna-v1-3-7b-finetune-frontier-lora-low-level-controller \
+    --model-path-s1 ./checkpoints_output/llava-vicuna-v1-3-7b-finetune-planner-lora-high-level-planner \
     --model-base ./checkpoints/vicuna-v1-3-7b \
     --image-file ./vision_dataset/llava_dataset_v8_easy_train/frontiers_feature \
     --val-file ./data/spaced_parse_instruction_easy_v12_val.json
