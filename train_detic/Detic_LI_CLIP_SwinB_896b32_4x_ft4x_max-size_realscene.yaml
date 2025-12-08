@@ -1,0 +1,46 @@
+_BASE_: "Base-C2_L_R5021k_640b64_4x.yaml"
+MODEL:
+  WEIGHTS: "models/BoxSup-C2_LCOCO_CLIP_SwinB_896b32_4x.pth"
+  ROI_BOX_HEAD:
+    USE_ZEROSHOT_CLS: True
+    IMAGE_LABEL_LOSS: 'max_size'
+    ZEROSHOT_WEIGHT_PATH: 'datasets/metadata/realscene_clip_a+cname_15.npy'
+    USE_FED_LOSS: False # Federated loss is enabled when DYNAMIC_CLASSIFIER is on
+  ROI_HEADS:
+    NUM_CLASSES: 15
+  BACKBONE:
+    NAME: build_swintransformer_fpn_backbone
+  SWIN:
+    SIZE: B-22k
+  FPN:
+    IN_FEATURES: ["swin1", "swin2", "swin3"]
+  CENTERNET:
+    NUM_CLASSES: 15
+
+SOLVER:
+  MAX_ITER: 30000
+  IMS_PER_BATCH: 16
+  BASE_LR: 0.0001
+  WARMUP_ITERS: 1000
+  WARMUP_FACTOR: 0.001
+  CHECKPOINT_PERIOD: 10000
+DATASETS:
+  TRAIN: ("realscene_v1_train",)
+  TEST: ("realscene_v1_val",)
+DATALOADER:
+  # SAMPLER_TRAIN: "MultiDatasetSampler"
+  DATASET_RATIO: [1, 16]
+  # USE_DIFF_BS_SIZE: True
+  DATASET_BS: [4, 16]
+  DATASET_INPUT_SIZE: [896, 448]
+  USE_RFS: [True, False]
+  DATASET_INPUT_SCALE: [[0.1, 2.0], [0.5, 1.5]]
+  # FILTER_EMPTY_ANNOTATIONS: False
+  FILTER_EMPTY_ANNOTATIONS: True
+  # MULTI_DATASET_GROUPING: True
+  # DATASET_ANN: ['box', 'image']
+  NUM_WORKERS: 8
+  # USE_TAR_DATASET: True
+OUTPUT_DIR: "./output/Detic/realscene_v2"
+WITH_IMAGE_LABELS: False
+# FP16: True
