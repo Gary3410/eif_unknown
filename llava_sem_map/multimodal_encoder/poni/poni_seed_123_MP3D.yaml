@@ -1,0 +1,57 @@
+DATASET:
+  dilate_free_map: True
+  dilate_iters: 1
+  dset_name: mp3d
+  enable_actions: False
+  enable_directions: False
+  enable_locations: False
+  enable_unexp_area: True
+  fmm_dists_saved_root: data/semantic_maps/gibson/fmm_dists_24.0_123
+  masking_mode: spath
+  masking_shape: square
+  max_unexp_area: 40.0
+  normalize_area_by_constant: True
+  num_actions: 4
+  object_pf_cutoff_dist: 5.0
+  output_map_size: 24.0
+  potential_function_frontier_scaling: 1.0
+  potential_function_masking: True
+  potential_function_non_frontier_scaling: 0.0
+  potential_function_non_visible_scaling: 0.0
+  prediction_directions: [0, 45, 90, 135, 180, 225, 270, 315]
+  root: /home/wzy/workplace/PONI/data/semantic_maps/mp3d/precomputed_dataset_24.0_123_spath_square
+  seed: 123
+  turn_angle: 30
+  visibility_size: 3.0
+LOGGING:
+  ckpt_dir: /home/wzy/workplace/PONI/checkpoints
+  ckpt_interval: 1000
+  eval_interval: 1000
+  log_dir: /home/wzy/workplace/PONI
+  log_interval: 10
+  tb_dir: /home/wzy/workplace/PONI/tb
+  verbose: False
+MODEL:
+  area_activation: sigmoid
+  area_loss_type: l2
+  embedding_size: 64
+  enable_area_head: True
+  map_size: 480
+  ndirs: 8
+  nsf: 32
+  num_categories: 23
+  object_activation: sigmoid
+  object_loss_type: l2
+  output_type: map
+  pretrained_path:
+  unet_bilinear_interp: True
+OPTIM:
+  batch_size: 16
+  lr: 0.001
+  lr_sched_gamma: 0.1
+  lr_sched_milestones: [2]
+  num_total_updates: 40000
+  num_workers: 8
+SEED: 123
+
+
